@@ -19,16 +19,7 @@ const Menu = () => {
               <Link href="/" className="hover:text-green-200 cursor-pointer">홈</Link>
             </li>
             <li>
-              <Link href="/price" className="hover:text-green-200 cursor-pointer">가격</Link>
-            </li>
-            <li>
-              <Link href="/blog" className="hover:text-green-200 cursor-pointer">블로그</Link>
-            </li>
-            <li>
-              <Link href="/about" className="hover:text-green-200 cursor-pointer">소개</Link>
-            </li>
-            <li>
-              <Link href="/contact" className="hover:text-green-200 cursor-pointer">문의하기</Link>
+              <Link href="/price" className="hover:text-green-200 cursor-pointer">주문</Link>
             </li>
           </ul>
         </nav>
@@ -48,21 +39,8 @@ const Menu = () => {
             </li>
             <li>
               <Link href="/price" className="text-lg font-semibold text-white hover:text-green-200 cursor-pointer" onClick={handleMobileMenuToggle}>
-                  가격
+                  주문
                 </Link>
-            </li>
-            <li>
-              <Link href="/blog" className="text-lg font-semibold text-white hover:text-green-200 cursor-pointer" onClick={handleMobileMenuToggle}>
-                  블로그
-                </Link>
-            </li>
-            <li>
-              <Link href="/about" className="text-lg font-semibold text-white hover:text-green-200 cursor-pointer" onClick={handleMobileMenuToggle}>
-                  소개
-                </Link>
-            </li>
-            <li>
-              <Link href="/contact" className="text-lg font-semibold text-white hover:text-green-200 cursor-pointer" onClick={handleMobileMenuToggle}>문의하기</Link>
             </li>
           </ul>
         </nav>
